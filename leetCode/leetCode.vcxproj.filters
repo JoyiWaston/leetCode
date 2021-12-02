@@ -22,4 +22,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeleteSame.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sharesBestTime.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isNumber.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="向量反转.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

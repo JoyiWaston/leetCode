@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Solution 
+class Solution01 
 {
 public:
     vector<int> twoSum01(vector<int>& nums, int target) 
@@ -26,15 +26,13 @@ public:
 
     vector<int> twoSum02(vector<int>& nums, int target) 
     {
-        unordered_map<int, int> hashtable;
-        for (int i = 0; i < nums.size(); ++i) 
-        {
-            auto it = hashtable.find(target - nums[i]);
-            if (it != hashtable.end()) 
-            {
-                return { it->second, i };
+        int size = nums.size();
+        unordered_map<int, int> dic;
+        for (int i = 0; i < size; i++) {
+            if (dic.find(target - nums[i]) != dic.end()) {
+                return { dic[target - nums[i]], i };
             }
-            hashtable[nums[i]] = i;
+            dic.emplace(nums[i], i);
         }
         return {};
     }

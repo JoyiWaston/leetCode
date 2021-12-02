@@ -143,6 +143,12 @@
     <ClCompile Include="TwoNumSum.hpp" />
     <ClCompile Include="Study.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeleteSame.hpp" />
+    <ClInclude Include="isNumber.hpp" />
+    <ClInclude Include="sharesBestTime.hpp" />
+    <ClInclude Include="向量反转.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
